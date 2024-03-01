@@ -3,10 +3,9 @@ UMN bootcamp module 9 challenge
 
 # Table Relations
 ![QuickDBD-MODULE 9](https://github.com/zhou0366/SQL_Challenge/assets/22827830/35ec4d57-f8c2-4c3f-80f1-4dde775e1484)
-
-## The employee number will be the primary key in the employees table. This will be used as a foreign key for the salaries, department manager, and department employees table. 
-## The title id number from the titles table will be the foreign key to the employee's title id in the employee table.
-## The department number from the departments table will be a foreign key for the department managers and department employees table.
+-The employee number will be the primary key in the employees table. This will be used as a foreign key for the salaries, department manager, and department employees table. 
+-The title id number from the titles table will be the foreign key to the employee's title id in the employee table.
+-The department number from the departments table will be a foreign key for the department managers and department employees table.
 
 # SQL Analysis
 ## 1 List the employee number, last name, first name, sex, and salary of each employee
