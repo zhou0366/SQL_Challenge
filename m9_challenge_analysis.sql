@@ -1,7 +1,7 @@
 --List the employee number, last name, first name, sex, and salary of each employee (2 points)
 SELECT e.emp_no, e.first_name, e.last_name, e.sex, s.salary
 FROM employees e
-LEFT JOIN salaries s
+JOIN salaries s
 ON e.emp_no = s.emp_no;
 --List the first name, last name, and hire date for the employees who were hired in 1986 (2 points)
 SELECT first_name, last_name, hire_date
